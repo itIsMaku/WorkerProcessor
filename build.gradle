@@ -1,0 +1,12 @@
+plugins {
+    id 'java'
+}
+
+group 'cz.maku'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+}
