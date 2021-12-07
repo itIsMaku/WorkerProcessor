@@ -46,7 +46,7 @@ There are many options to this annotation (* = required):
 - String website
 
 You might be asking yourself: "Where do I have to list my commands?!". Nowhere.
-Just register the commands in onEnable with WorkerUtils class. This class is here, since the full framework is not released yet, however it will after the new year.
+Just register the commands in onEnable with WorkerUtils class. This class is here, since the full framework is not released yet, however it will be after the new year.
 ```java
 WorkerUtils.registerCommand(CommandExecutor commandExecutor, String fallbackPrefix, String command, String description, String usage, String... aliases);
 WorkerUtils.registerCommand(CommandExecutor commandExecutor, String fallbackPrefix, String command);
